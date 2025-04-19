@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Form</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header>Custom Form</header>
+  <main>
+    <div class="custom-form-container">
+      <form action="" class="custom-form">
+        <div class="custom-form-items">
+          <label for="name" class="label">Name</label>
+          <input type="text" class="name fields" name="name" placeholder="Name"/>
+        </div>
+        <div class="custom-form-items">
+          <label for="title" class="label">Title</label>
+          <input type="text" class="title fields" name="title" placeholder="Title"/>
+        </div>
+        <div class="custom-form-items">
+          <label for="email" class="label">Email</label>
+          <input type="email" name="email" class="email fields" placeholder="Email"/>
+        </div>
+        <div class="custom-form-items">
+          <label for="phone" class="label">Phone</label>
+          <input type="text" class="phone fields" name="phone" placeholder="Phone"/>
+        </div>
+        <div class="custom-form-items">
+          <label for="product" class="label">Product Tye:</label>
+          <div class="custom-select-box">
+            <div class="input-box selected">
+              <input type="text" name="product-select" class="custom-product-selectbox fields" placeholder="Select Product Type" data-value="Option" readonly/>
+              <img class="dropdown" src="assets/image/icons8-dropdown-30.png" alt="dropdown"/>
+            </div>
+            <ul class="options">
+              <li class="option" data-value="Option1">Option1</li>
+              <li class="option" data-value="Option2">Option2</li>
+              <li class="option" data-value="Option3">Option3</li>
+              <li class="option" data-value="Option4">Option4</li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+  </main>
+  <footer></footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
