@@ -41,6 +41,7 @@ header {
 .custom-form {
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3, auto);
   gap: 10px;
 }
 .label {
@@ -96,4 +97,22 @@ header {
 }
 .option:hover {
   background-color: #ebebeb;
+}
+.submit-btn-container {
+  width: 100%;
+  display: block;
+  grid-row: 4 / -1;
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-block: 20px;
+}
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 20px;
 }
